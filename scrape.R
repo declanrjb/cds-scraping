@@ -6,7 +6,7 @@ library(RCurl)
 #initiate server
 
 rD <- rsDriver(
-  port = 4420L,
+  port = 4470L,
   browser = "firefox",
   version = "latest",
   chromever = "106.0.5249.21",
@@ -28,12 +28,8 @@ url_from_result <- function(result_obj) {
   }
 }
 
-download_from_url <- function(url,dir_path,save_name=NA) {
-  if (is.na(save_name)) {
-    file_name <- gsub("https://","",url) 
-  } else {
-    file_name <- save_name
-  }
+download_from_url <- function(url,dir_path) {
+  file_name <- gsub("https://","",url)
   file_name <- gsub("/","_",file_name)
   file_name <- paste(dir_path,"/",file_name,sep="")
   if (file.exists(file_name)) {
@@ -103,18 +99,24 @@ generate_search_url <- function(college_url) {
 download_cds_guess <- function(college_name,college_url) {
   search_url <- generate_search_url(college_url)
   
-  results <- remDr$findElements("css",".MjjYud")
+  remDr$navigate(search_url)
   
-  urls <- unlist(lapply(results,url_from_result))
-  urls <- urls[!is.na(urls)]
-  urls <- urls[grepl(".edu",urls,fixed=TRUE)]
+  result <- remDr$findElements("css",".MjjYud")[[1]]
   
-  url <- urls[1]
-  college_name <- str_to_lower(college_name)
-  college_name <- gsub('[[:punct:] ]+',' ',college_name)
-  college_name <- str_squish(college_name)
-  college_name <- gsub(" ","_",college_name)
-  download_from_url(college_url,"cds_all",save_name=college_name)
+  if (length(result) > 0) {
+    url <- url_from_result(result)
+    if (!is.na(url)) {
+      college_name <- str_to_lower(college_name)
+      college_name <- gsub('[[:punct:] ]+',' ',college_name)
+      college_name <- str_squish(college_name)
+      college_name <- gsub(" ","_",college_name)
+      return(download_from_url(url,"cds_all"))    
+    } else {
+      return(FALSE)
+    }
+  } else {
+    return(FALSE)
+  }
 }
 
 go_forth_and_scrape <- function(j) {
@@ -138,12 +140,13 @@ remDr <- rD[["client"]]
 remDr$setTimeout(type = "implicit", 3000)
 
 inst_dict <- read_csv("hd2022.csv")
-for (i in 1:length(inst_dict$INSTNM)) {
+for (i in 115:length(inst_dict$INSTNM)) {
   curr_college <- inst_dict[i,]$INSTNM
   curr_url <- inst_dict[i,]$WEBADDR
   message(curr_college)
-  message(i/length(inst_dict$INSTNM))
-  download_cds_guess(curr_college,curr_url)
+  message(i)
+  outcome <- download_cds_guess(curr_college,curr_url)
+  message(outcome)
 }
 
 rD[["server"]]$stop()
