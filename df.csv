@@ -132,6 +132,80 @@
 "Austin Peay State University","Volunteer work",104
 "Austin Peay State University","Work experience",104
 "Austin Peay State University","Level of applicant’s interest",104
+"Baldwin Wallace University","Class rank",61
+"Baldwin Wallace University","Academic GPA",43
+"Baldwin Wallace University","Standardized test scores",79
+"Baldwin Wallace University","Application Essay",61
+"Baldwin Wallace University","Recommendation(s)",79
+"Baldwin Wallace University","Interview",79
+"Baldwin Wallace University","Extracurricular activities",61
+"Baldwin Wallace University","Talent/ability",61
+"Baldwin Wallace University","Character/personal qualities",61
+"Baldwin Wallace University","First generation",79
+"Baldwin Wallace University","Alumni/ae relation",79
+"Baldwin Wallace University","Geographical residence",79
+"Baldwin Wallace University","State residency",79
+"Baldwin Wallace University","Religious affiliation/commitment",98
+"Baldwin Wallace University","Racial/ethnic status",79
+"Baldwin Wallace University","Volunteer work",79
+"Baldwin Wallace University","Work experience",79
+"Baldwin Wallace University","Level of applicant’s interest",79
+"Ball State University","Class rank x",94
+"Ball State University","Academic GPA x",61
+"Ball State University","Standardized test scores x",77
+"Ball State University","Application Essay x",77
+"Ball State University","Recommendation(s) x",94
+"Ball State University","Interview x",77
+"Ball State University","Extracurricular activities x",94
+"Ball State University","Talent/ability x",77
+"Ball State University","Character/personal qualities x",94
+"Ball State University","First generation x",94
+"Ball State University","Alumni/ae relation x",94
+"Ball State University","Geographical residence x",94
+"Ball State University","State residency x",94
+"Ball State University","Religious affiliation/commitment x",94
+"Ball State University","Racial/ethnic status x",94
+"Ball State University","Volunteer work x",94
+"Ball State University","Work experience x",94
+"Ball State University","Level of applicant’s interest x",94
+"Barnard College","Rigor of secondary school record",53
+"Barnard College","Class rank",72
+"Barnard College","Academic GPA",52
+"Barnard College","Standardized test scores",91
+"Barnard College","Application Essay",53
+"Barnard College","Recommendation(s)",53
+"Barnard College","Interview",91
+"Barnard College","Extracurricular activities",72
+"Barnard College","Talent/ability",72
+"Barnard College","Character/personal qualities",53
+"Barnard College","First generation",91
+"Barnard College","Alumni/ae relation",91
+"Barnard College","Geographical residence",91
+"Barnard College","State residency",110
+"Barnard College","Religious affiliation/commitment",110
+"Barnard College","Racial/ethnic status",91
+"Barnard College","Volunteer work",72
+"Barnard College","Work experience",72
+"Barnard College","Level of applicant’s interest",91
+"Baylor University","Rigor of secondary school record",45
+"Baylor University","Class rank",80
+"Baylor University","Academic GPA",45
+"Baylor University","Standardized test scores",45
+"Baylor University","Application Essay",64
+"Baylor University","Recommendation(s)",80
+"Baylor University","Interview",98
+"Baylor University","Extracurricular activities",80
+"Baylor University","Talent/ability",80
+"Baylor University","Character/personal qualities",80
+"Baylor University","First generation",98
+"Baylor University","Alumni/ae relation",80
+"Baylor University","Geographical residence",98
+"Baylor University","State residency",98
+"Baylor University","Religious affiliation/commitment",98
+"Baylor University","Racial/ethnic status",98
+"Baylor University","Volunteer work",80
+"Baylor University","Work experience",80
+"Baylor University","Level of applicant’s interest",80
 "Belmont University","Class rank x",78
 "Belmont University","Academic GPA x",42
 "Belmont University","Standardized test scores x",42
@@ -168,6 +242,24 @@
 "Beloit College","Volunteer work x",78
 "Beloit College","Work experience x",78
 "Beloit College","Level of applicant’s interest x",78
+"Binghamton University","Class rank",80
+"Binghamton University","Academic GPA",55
+"Binghamton University","Standardized test scores (if Submitted)",109
+"Binghamton University","Application Essay",80
+"Binghamton University","Recommendation(s)",102
+"Binghamton University","Interview",124
+"Binghamton University","Extracurricular activities",101
+"Binghamton University","Talent/ability",101
+"Binghamton University","Character/personal qualities",101
+"Binghamton University","First generation",101
+"Binghamton University","Alumni/ae relation",124
+"Binghamton University","Geographical residence",101
+"Binghamton University","State residency",124
+"Binghamton University","Religious affiliation/commitment",124
+"Binghamton University","Racial/ethnic status",101
+"Binghamton University","Volunteer work",101
+"Binghamton University","Work experience",101
+"Binghamton University","Level of applicant’s interest",124
 "Boston College","Class rank",62
 "Boston College","Academic GPA",43
 "Boston College","Standardized test scores",80
@@ -402,6 +494,24 @@
 "Connecticut College","Volunteer work x",65
 "Connecticut College","Work experience x",65
 "Connecticut College","Level of applicant’s interest x",84
+"Cornell University","Class rank",61
+"Cornell University","Academic GPA",43
+"Cornell University","Standardized test scores",80
+"Cornell University","Application Essay",43
+"Cornell University","Recommendation(s)",43
+"Cornell University","Interview",80
+"Cornell University","Extracurricular activities",43
+"Cornell University","Talent/ability",43
+"Cornell University","Character/personal qualities",43
+"Cornell University","First generation",80
+"Cornell University","Alumni/ae relation",80
+"Cornell University","Geographical residence",80
+"Cornell University","State residency",80
+"Cornell University","Religious affiliation/commitment",98
+"Cornell University","Racial/ethnic status",80
+"Cornell University","Volunteer work",80
+"Cornell University","Work experience",80
+"Cornell University","Level of applicant’s interest",98
 "Davidson College","Rigor of secondary school record",44
 "Davidson College","Class rank",79
 "Davidson College","Academic GPA",77
@@ -682,6 +792,25 @@
 "Georgia Institute of Technology","Volunteer work",41
 "Georgia Institute of Technology","Work experience",41
 "Georgia Institute of Technology","Level of applicant’s interest",96
+"Grinnell College","Rigor of secondary school record x",42
+"Grinnell College","Class rank x",42
+"Grinnell College","Academic GPA x",42
+"Grinnell College","Standardized test scores x",59
+"Grinnell College","Application Essay x",59
+"Grinnell College","Recommendation(s) x",42
+"Grinnell College","Interview x",76
+"Grinnell College","Extracurricular activities x",59
+"Grinnell College","Talent/ability x",59
+"Grinnell College","Character/personal qualities x",76
+"Grinnell College","First generation x",76
+"Grinnell College","Alumni/ae relation x",76
+"Grinnell College","Geographical residence x",76
+"Grinnell College","State residency x",76
+"Grinnell College","Religious affiliation/commitment x",93
+"Grinnell College","Racial/ethnic status x",76
+"Grinnell College","Volunteer work x",76
+"Grinnell College","Work experience x",76
+"Grinnell College","Level of applicant’s interest x",76
 "Gustavus Adolphus College","Rigor of secondary school record",45
 "Gustavus Adolphus College","Class rank",64
 "Gustavus Adolphus College","Academic GPA",43
@@ -701,6 +830,25 @@
 "Gustavus Adolphus College","Volunteer work",80
 "Gustavus Adolphus College","Work experience",80
 "Gustavus Adolphus College","Level of applicant’s interest",80
+"Harvard University","Rigor of secondary school record",85
+"Harvard University","Class rank",105
+"Harvard University","Academic GPA",85
+"Harvard University","Standardized test scores",85
+"Harvard University","Application Essay",85
+"Harvard University","Recommendation(s)",85
+"Harvard University","Interview",85
+"Harvard University","Extracurricular activities",85
+"Harvard University","Talent/ability",85
+"Harvard University","Character/personal qualities",85
+"Harvard University","First generation",85
+"Harvard University","Alumni/ae relation",85
+"Harvard University","Geographical residence",85
+"Harvard University","State residency",105
+"Harvard University","Religious affiliation/commitment",105
+"Harvard University","Racial/ethnic status",85
+"Harvard University","Volunteer work",85
+"Harvard University","Work experience",85
+"Harvard University","Level of applicant’s interest",105
 "Hiram College","Class rank x",82
 "Hiram College","Academic GPA x",44
 "Hiram College","Standardized test scores x",101
@@ -887,6 +1035,25 @@
 "Lehigh University","Volunteer work x",68
 "Lehigh University","Work experience x",87
 "Lehigh University","Level of applicant’s interest x",68
+"Loyola University Chicago","Rigor of secondary school record",47
+"Loyola University Chicago","Class rank",85
+"Loyola University Chicago","Academic GPA",45
+"Loyola University Chicago","Standardized test scores",85
+"Loyola University Chicago","Application Essay",66
+"Loyola University Chicago","Recommendation(s)",66
+"Loyola University Chicago","Interview",85
+"Loyola University Chicago","Extracurricular activities",66
+"Loyola University Chicago","Talent/ability",85
+"Loyola University Chicago","Character/personal qualities",66
+"Loyola University Chicago","First generation",85
+"Loyola University Chicago","Alumni/ae relation",85
+"Loyola University Chicago","Geographical residence",85
+"Loyola University Chicago","State residency",85
+"Loyola University Chicago","Religious affiliation/commitment",105
+"Loyola University Chicago","Racial/ethnic status",105
+"Loyola University Chicago","Volunteer work",66
+"Loyola University Chicago","Work experience",66
+"Loyola University Chicago","Level of applicant’s interest",66
 "Lycoming College","Rigor of secondary school record x",45
 "Lycoming College","Class rank x",59
 "Lycoming College","Academic GPA x",57
@@ -906,6 +1073,42 @@
 "Lycoming College","Volunteer work x",73
 "Lycoming College","Work experience x",73
 "Lycoming College","Level of applicant’s interest x",73
+"Macalester College","Class rank x",84
+"Macalester College","Academic GPA x",45
+"Macalester College","Standardized test scores x",84
+"Macalester College","Application Essay x",65
+"Macalester College","Recommendation(s) x",65
+"Macalester College","Interview x",84
+"Macalester College","Extracurricular activities x",65
+"Macalester College","Talent/ability x",84
+"Macalester College","Character/personal qualities x",65
+"Macalester College","First generation x",84
+"Macalester College","Alumni/ae relation x",84
+"Macalester College","Geographical residence x",84
+"Macalester College","State residency x",84
+"Macalester College","Religious affiliation/commitment x",104
+"Macalester College","Racial/ethnic status x",84
+"Macalester College","Volunteer work x",84
+"Macalester College","Work experience x",84
+"Macalester College","Level of applicant’s interest x",104
+"Marist College","Class rank x",83
+"Marist College","Academic GPA x",45
+"Marist College","Standardized test scores x",83
+"Marist College","Application Essay x",83
+"Marist College","Recommendation(s) x",64
+"Marist College","Interview x",102
+"Marist College","Extracurricular activities x",83
+"Marist College","Talent/ability x",83
+"Marist College","Character/personal qualities x",64
+"Marist College","First generation x",83
+"Marist College","Alumni/ae relation x",102
+"Marist College","Geographical residence x",83
+"Marist College","State residency x",102
+"Marist College","Religious affiliation/commitment x",102
+"Marist College","Racial/ethnic status x",83
+"Marist College","Volunteer work x",83
+"Marist College","Work experience x",83
+"Marist College","Level of applicant’s interest x",83
 "Marquette University","Rigor of secondary school record x",44
 "Marquette University","Class rank x",81
 "Marquette University","Academic GPA x",42
@@ -944,6 +1147,25 @@
 "Metropolitan State University of Denver","Volunteer work x",91
 "Metropolitan State University of Denver","Work experience x",91
 "Metropolitan State University of Denver","Level of applicant’s interest x",117
+"MICHIGAN STATE UNIVERSITY","Rigor of secondary school record",65
+"MICHIGAN STATE UNIVERSITY","Class rank",84
+"MICHIGAN STATE UNIVERSITY","Academic GPA",45
+"MICHIGAN STATE UNIVERSITY","Standardized test scores",84
+"MICHIGAN STATE UNIVERSITY","Application Essay",45
+"MICHIGAN STATE UNIVERSITY","Recommendation(s)",84
+"MICHIGAN STATE UNIVERSITY","Interview",84
+"MICHIGAN STATE UNIVERSITY","Extracurricular activities",65
+"MICHIGAN STATE UNIVERSITY","Talent/ability",65
+"MICHIGAN STATE UNIVERSITY","Character/personal qualities",65
+"MICHIGAN STATE UNIVERSITY","First generation",84
+"MICHIGAN STATE UNIVERSITY","Alumni/ae relation",84
+"MICHIGAN STATE UNIVERSITY","Geographical residence",65
+"MICHIGAN STATE UNIVERSITY","State residency",84
+"MICHIGAN STATE UNIVERSITY","Religious affiliation/commitment",103
+"MICHIGAN STATE UNIVERSITY","Racial/ethnic status",103
+"MICHIGAN STATE UNIVERSITY","Volunteer work",84
+"MICHIGAN STATE UNIVERSITY","Work experience",84
+"MICHIGAN STATE UNIVERSITY","Level of applicant’s interest",65
 "Michigan Technological University","Rigor of secondary school record",63
 "Michigan Technological University","Class rank",99
 "Michigan Technological University","Academic GPA",44
@@ -1018,6 +1240,25 @@
 "Northwestern University","Volunteer work",79
 "Northwestern University","Work experience",79
 "Northwestern University","Level of applicant’s interest",79
+"Oakland University","Rigor of secondary school record",66
+"Oakland University","Class rank",105
+"Oakland University","Academic GPA",45
+"Oakland University","Standardized test scores",86
+"Oakland University","Application Essay",86
+"Oakland University","Recommendation(s)",86
+"Oakland University","Interview",105
+"Oakland University","Extracurricular activities",105
+"Oakland University","Talent/ability",105
+"Oakland University","Character/personal qualities",105
+"Oakland University","First generation",105
+"Oakland University","Alumni/ae relation",105
+"Oakland University","Geographical residence",105
+"Oakland University","State residency",105
+"Oakland University","Religious affiliation/commitment",105
+"Oakland University","Racial/ethnic status",105
+"Oakland University","Volunteer work",105
+"Oakland University","Work experience",105
+"Oakland University","Level of applicant’s interest",105
 "Pepperdine University","Rigor of secondary school record",74
 "Pepperdine University","Class rank",126
 "Pepperdine University","Academic GPA",74
@@ -1056,6 +1297,25 @@
 "Pitzer College","Volunteer work",65
 "Pitzer College","Work experience",84
 "Pitzer College","Level of applicant’s interest",84
+"Point Park University","Rigor of secondary school record",66
+"Point Park University","Class rank",104
+"Point Park University","Academic GPA",44
+"Point Park University","Standardized test scores",66
+"Point Park University","Application Essay",104
+"Point Park University","Recommendation(s)",104
+"Point Park University","Interview",104
+"Point Park University","Extracurricular activities",104
+"Point Park University","Talent/ability",46
+"Point Park University","Character/personal qualities",104
+"Point Park University","First generation",104
+"Point Park University","Alumni/ae relation",104
+"Point Park University","Geographical residence",104
+"Point Park University","State residency",104
+"Point Park University","Religious affiliation/commitment",104
+"Point Park University","Racial/ethnic status",104
+"Point Park University","Volunteer work",104
+"Point Park University","Work experience",104
+"Point Park University","Level of applicant’s interest",104
 "Providence College","Rigor of secondary school record",44
 "Providence College","Class rank",81
 "Providence College","Academic GPA",42
@@ -1169,6 +1429,25 @@
 "San José State University","Volunteer work",99
 "San José State University","Work experience",99
 "San José State University","Level of applicant’s interest",99
+"Siena College","Rigor of secondary school record x",44
+"Siena College","Class rank x",80
+"Siena College","Academic GPA x",42
+"Siena College","Standardized test scores x",80
+"Siena College","Application Essay x",80
+"Siena College","Recommendation(s) x",62
+"Siena College","Interview x",62
+"Siena College","Extracurricular activities x",80
+"Siena College","Talent/ability x",80
+"Siena College","Character/personal qualities x",80
+"Siena College","First generation x",80
+"Siena College","Alumni/ae relation x",80
+"Siena College","Geographical residence x",80
+"Siena College","State residency x",97
+"Siena College","Religious affiliation/commitment x",97
+"Siena College","Racial/ethnic status x",80
+"Siena College","Volunteer work x",80
+"Siena College","Work experience x",80
+"Siena College","Level of applicant’s interest x",80
 "Skidmore College","Class rank",70
 "Skidmore College","Academic GPA",70
 "Skidmore College","Standardized test scores",89
@@ -1205,6 +1484,25 @@
 "Slippery Rock University","Volunteer work",98
 "Slippery Rock University","Work experience",98
 "Slippery Rock University","Level of applicant’s interest",98
+"Smith College","Rigor of secondary school record",47
+"Smith College","Class rank",67
+"Smith College","Academic GPA",45
+"Smith College","Standardized test scores",86
+"Smith College","Application Essay",47
+"Smith College","Recommendation(s)",47
+"Smith College","Interview",67
+"Smith College","Extracurricular activities",67
+"Smith College","Talent/ability",67
+"Smith College","Character/personal qualities",47
+"Smith College","First generation",86
+"Smith College","Alumni/ae relation",86
+"Smith College","Geographical residence",86
+"Smith College","State residency",105
+"Smith College","Religious affiliation/commitment",105
+"Smith College","Racial/ethnic status",86
+"Smith College","Volunteer work",86
+"Smith College","Work experience",86
+"Smith College","Level of applicant’s interest",105
 "South Dakota State University","Class rank",43
 "South Dakota State University","Academic GPA",43
 "South Dakota State University","Standardized test scores",43
@@ -1259,6 +1557,58 @@
 "St. John Fisher College","Volunteer work",63
 "St. John Fisher College","Work experience",63
 "St. John Fisher College","Level of applicant’s interest",63
+"Stephen. F. Austin State University","Rigor of secondary school record",44
+"Stephen. F. Austin State University","Class rank",44
+"Stephen. F. Austin State University","Academic GPA",42
+"Stephen. F. Austin State University","Standardized test scores",44
+"Stephen. F. Austin State University","Application Essay",99
+"Stephen. F. Austin State University","Recommendation(s)",99
+"Stephen. F. Austin State University","Extracurricular activities",81
+"Stephen. F. Austin State University","Talent/ability",81
+"Stephen. F. Austin State University","Character/personal qualities",81
+"Stephen. F. Austin State University","First generation",81
+"Stephen. F. Austin State University","Alumni/ae relation",81
+"Stephen. F. Austin State University","Geographical residence",81
+"Stephen. F. Austin State University","State residency",81
+"Stephen. F. Austin State University","Religious affiliation/commitment",99
+"Stephen. F. Austin State University","Volunteer work",81
+"Stephen. F. Austin State University","Work experience",81
+"Stockton University","Rigor of secondary school record",44
+"Stockton University","Class rank",98
+"Stockton University","Academic GPA",42
+"Stockton University","Standardized test scores",80
+"Stockton University","Application Essay",80
+"Stockton University","Recommendation(s)",80
+"Stockton University","Interview",98
+"Stockton University","Extracurricular activities",80
+"Stockton University","Talent/ability",88
+"Stockton University","Character/personal qualities",88
+"Stockton University","First generation",88
+"Stockton University","Alumni/ae relation",106
+"Stockton University","Geographical residence",106
+"Stockton University","State residency",106
+"Stockton University","Religious affiliation/commitment",106
+"Stockton University","Racial/ethnic status",106
+"Stockton University","Volunteer work",88
+"Stockton University","Work experience",88
+"Stockton University","Level of applicant’s interest",106
+"SUNY College of Technology at Farmingdale","Class rank",104
+"SUNY College of Technology at Farmingdale","Standardized test scores",87
+"SUNY College of Technology at Farmingdale","Application Essay",66
+"SUNY College of Technology at Farmingdale","Recommendation(s)",66
+"SUNY College of Technology at Farmingdale","Interview",87
+"SUNY College of Technology at Farmingdale","Extracurricular activities",87
+"SUNY College of Technology at Farmingdale","Talent/ability",87
+"SUNY College of Technology at Farmingdale","Character/personal qualities",87
+"SUNY College of Technology at Farmingdale","First generation",87
+"SUNY College of Technology at Farmingdale","Alumni/ae relation",87
+"SUNY College of Technology at Farmingdale","Geographical residence",104
+"SUNY College of Technology at Farmingdale","State residency",104
+"SUNY College of Technology at Farmingdale","Religious affiliation/commitment",104
+"SUNY College of Technology at Farmingdale","Racial/ethnic status",104
+"SUNY College of Technology at Farmingdale","Volunteer work",87
+"SUNY College of Technology at Farmingdale","Work experience",87
+"SUNY College of Technology at Farmingdale","Level of applicant’s interest",87
 "Temple University","Class rank",94
 "Temple University","Academic GPA",42
 "Temple University","Standardized test scores",76
@@ -1314,6 +1664,43 @@
 "The University of Alabama at Birmingham","Volunteer work",98
 "The University of Alabama at Birmingham","Work experience",98
 "The University of Alabama at Birmingham","Level of applicant’s interest",98
+"The University of North Carolina at Greensboro","school record x",37
+"The University of North Carolina at Greensboro","Class rank x",72
+"The University of North Carolina at Greensboro","Academic GPA x",35
+"The University of North Carolina at Greensboro","Standardized test scores x",56
+"The University of North Carolina at Greensboro","Application Essay x",72
+"The University of North Carolina at Greensboro","Recommendation(s) x",72
+"The University of North Carolina at Greensboro","Interview x",104
+"The University of North Carolina at Greensboro","Extracurricular activities x",87
+"The University of North Carolina at Greensboro","Talent/ability x",104
+"The University of North Carolina at Greensboro","Character/personal qualities x",104
+"The University of North Carolina at Greensboro","First generation x",104
+"The University of North Carolina at Greensboro","Alumni/ae relation x",104
+"The University of North Carolina at Greensboro","Geographical residence x",104
+"The University of North Carolina at Greensboro","State residency x",104
+"The University of North Carolina at Greensboro","Racial/ethnic status x",104
+"The University of North Carolina at Greensboro","Volunteer work x",87
+"The University of North Carolina at Greensboro","Work experience x",104
+"The University of North Carolina at Greensboro","Level of applicant’s interest x",104
+"The University of Scranton","Rigor of secondary school record",45
+"The University of Scranton","Class rank",45
+"The University of Scranton","Academic GPA",43
+"The University of Scranton","Standardized test scores",45
+"The University of Scranton","Application Essay",80
+"The University of Scranton","Recommendation(s)",80
+"The University of Scranton","Interview",80
+"The University of Scranton","Extracurricular activities",64
+"The University of Scranton","Talent/ability",80
+"The University of Scranton","Character/personal qualities",80
+"The University of Scranton","First generation",98
+"The University of Scranton","Alumni/ae relation",80
+"The University of Scranton","Geographical residence",98
+"The University of Scranton","State residency",98
+"The University of Scranton","Religious affiliation/commitment",98
+"The University of Scranton","Racial/ethnic status",98
+"The University of Scranton","Volunteer work",80
+"The University of Scranton","Work experience",80
+"The University of Scranton","Level of applicant’s interest",80
 "The University of Tennessee at Chattanooga","Rigor of secondary school record",47
 "The University of Tennessee at Chattanooga","Class rank",105
 "The University of Tennessee at Chattanooga","Academic GPA",47
@@ -1407,6 +1794,24 @@
 "Tufts University","Volunteer work x",92
 "Tufts University","Work experience x",92
 "Tufts University","Level of applicant’s interest x",92
+"University of California, Riverside","Class rank x",94
+"University of California, Riverside","Academic GPA x",42
+"University of California, Riverside","Standardized test scores x",94
+"University of California, Riverside","Application Essay x",42
+"University of California, Riverside","Recommendation(s) x",94
+"University of California, Riverside","Interview x",94
+"University of California, Riverside","Extracurricular activities x",94
+"University of California, Riverside","Talent/ability x",77
+"University of California, Riverside","Character/personal qualities x",94
+"University of California, Riverside","First generation x",77
+"University of California, Riverside","Alumni/ae relation x",94
+"University of California, Riverside","Geographical residence x",94
+"University of California, Riverside","State residency x",77
+"University of California, Riverside","Religious affiliation/commitment x",94
+"University of California, Riverside","Racial/ethnic status x",94
+"University of California, Riverside","Volunteer work x",94
+"University of California, Riverside","Work experience x",94
+"University of California, Riverside","Level of applicant’s interest x",94
 "University of California, Santa Cruz","Rigor of secondary school record",48
 "University of California, Santa Cruz","Class rank",107
 "University of California, Santa Cruz","Academic GPA",46
@@ -1538,6 +1943,80 @@
 "University of Florida - Main Campus","Volunteer work",65
 "University of Florida - Main Campus","Work experience",65
 "University of Florida - Main Campus","Level of applicant’s interest",99
+"University of Maine","Rigor of secondary school record x",47
+"University of Maine","Class rank x",47
+"University of Maine","Academic GPA x",45
+"University of Maine","Standardized test scores x",85
+"University of Maine","Application Essay x",47
+"University of Maine","Recommendation(s) x",47
+"University of Maine","Interview x",85
+"University of Maine","Extracurricular activities x",85
+"University of Maine","Talent/ability x",85
+"University of Maine","Character/personal qualities x",85
+"University of Maine","First generation x",104
+"University of Maine","Alumni/ae relation x",104
+"University of Maine","Geographical residence x",104
+"University of Maine","State residency x",104
+"University of Maine","Religious affiliation/commitment x",104
+"University of Maine","Racial/ethnic status x",104
+"University of Maine","Volunteer work x",85
+"University of Maine","Work experience x",85
+"University of Maine","Level of applicant’s interest x",104
+"University of Maine at Machias","Rigor of secondary school record x",61
+"University of Maine at Machias","Class rank x",61
+"University of Maine at Machias","Academic GPA x",42
+"University of Maine at Machias","Standardized test scores x",61
+"University of Maine at Machias","Application Essay x",44
+"University of Maine at Machias","Recommendation(s) x",44
+"University of Maine at Machias","Extracurricular activities x",61
+"University of Maine at Machias","Talent/ability x",79
+"University of Maine at Machias","Character/personal qualities x",79
+"University of Maine at Machias","First generation x",97
+"University of Maine at Machias","Alumni/ae relation x",97
+"University of Maine at Machias","Geographical residence x",97
+"University of Maine at Machias","State residency x",97
+"University of Maine at Machias","Religious affiliation/commitment x",97
+"University of Maine at Machias","Racial/ethnic status x",97
+"University of Maine at Machias","Volunteer work x",79
+"University of Maine at Machias","Work experience x",79
+"University of Maine at Machias","Level of applicant’s interest x",79
+"University of Massachusetts Boston","Rigor of secondary school record",44
+"University of Massachusetts Boston","Class rank x",99
+"University of Massachusetts Boston","Academic GPA",42
+"University of Massachusetts Boston","Standardized test scores",80
+"University of Massachusetts Boston","Application Essay",62
+"University of Massachusetts Boston","Recommendation(s)",62
+"University of Massachusetts Boston","Interview",99
+"University of Massachusetts Boston","Extracurricular activities",80
+"University of Massachusetts Boston","Talent/ability",80
+"University of Massachusetts Boston","Character/personal qualities",62
+"University of Massachusetts Boston","First generation",80
+"University of Massachusetts Boston","Alumni/ae relation",99
+"University of Massachusetts Boston","Geographical residence",99
+"University of Massachusetts Boston","State residency",99
+"University of Massachusetts Boston","Religious affiliation/commitment",99
+"University of Massachusetts Boston","Racial/ethnic status",99
+"University of Massachusetts Boston","Volunteer work",80
+"University of Massachusetts Boston","Work experience",80
+"University of Massachusetts Boston","Level of applicant’s interest",99
+"University of Miami","Class rank",45
+"University of Miami","Academic GPA",45
+"University of Miami","Standardized test scores",45
+"University of Miami","Application Essay",45
+"University of Miami","Recommendation(s)",45
+"University of Miami","Interview",94
+"University of Miami","Extracurricular activities",44
+"University of Miami","Talent/ability",62
+"University of Miami","Character/personal qualities",62
+"University of Miami","First generation",79
+"University of Miami","Alumni/ae relation",79
+"University of Miami","Geographical residence",79
+"University of Miami","State residency",79
+"University of Miami","Religious affiliation/commitment",94
+"University of Miami","Racial/ethnic status",79
+"University of Miami","Volunteer work",62
+"University of Miami","Work experience",62
+"University of Miami","Level of applicant’s interest",79
 "University of Missouri - Kansas City","Rigor of secondary school record",46
 "University of Missouri - Kansas City","Class rank",81
 "University of Missouri - Kansas City","Academic GPA",44
@@ -1648,6 +2127,25 @@
 "University of Notre Dame","Volunteer work",76
 "University of Notre Dame","Work experience",96
 "University of Notre Dame","Level of applicant’s interest",96
+"University of Oregon","Rigor of secondary school record",47
+"University of Oregon","Class rank",85
+"University of Oregon","Academic GPA",45
+"University of Oregon","Standardized test scores",85
+"University of Oregon","Application Essay",66
+"University of Oregon","Recommendation(s)",85
+"University of Oregon","Interview",104
+"University of Oregon","Extracurricular activities",85
+"University of Oregon","Talent/ability",85
+"University of Oregon","Character/personal qualities",85
+"University of Oregon","First generation",85
+"University of Oregon","Alumni/ae relation",104
+"University of Oregon","Geographical residence",85
+"University of Oregon","State residency",85
+"University of Oregon","Religious affiliation/commitment",104
+"University of Oregon","Racial/ethnic status",85
+"University of Oregon","Volunteer work",85
+"University of Oregon","Work experience",85
+"University of Oregon","Level of applicant’s interest",104
 "University of Pittsburgh","Rigor of secondary school record",44
 "University of Pittsburgh","Class rank",80
 "University of Pittsburgh","Academic GPA",42
@@ -1797,6 +2295,25 @@
 "University of the Pacific","Volunteer work",45
 "University of the Pacific","Work experience",79
 "University of the Pacific","Level of applicant’s interest",79
+"University of Utah","Rigor of secondary school record",53
+"University of Utah","Class rank",96
+"University of Utah","Academic GPA",53
+"University of Utah","Standardized test scores",96
+"University of Utah","Application Essay",96
+"University of Utah","Recommendation(s)",96
+"University of Utah","Interview",115
+"University of Utah","Extracurricular activities",96
+"University of Utah","Talent/ability",96
+"University of Utah","Character/personal qualities",96
+"University of Utah","First generation",115
+"University of Utah","Alumni/ae relation",115
+"University of Utah","Geographical residence",115
+"University of Utah","State residency",115
+"University of Utah","Religious affiliation/commitment",115
+"University of Utah","Racial/ethnic status",115
+"University of Utah","Volunteer work",96
+"University of Utah","Work experience",96
+"University of Utah","Level of applicant’s interest",115
 "University of Vermont","Rigor of secondary school",41
 "University of Vermont","Class rank",95
 "University of Vermont","Academic GPA",59
@@ -1967,6 +2484,10 @@
 "Western New England University","Volunteer work",113
 "Western New England University","Work experience",113
 "Western New England University","Level of applicant’s interest",113
+"Williams College","Rigor of secondary school record",48
+"Williams College","Class rank",48
+"Williams College","Academic GPA",46
+"Williams College","Standardized test scores See C",123
 "Winthrop University","Rigor of secondary school record",64
 "Winthrop University","Class rank",138
 "Winthrop University","Academic GPA",62
