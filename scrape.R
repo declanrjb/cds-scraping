@@ -86,7 +86,7 @@ remDr$setTimeout(type = "implicit", 3000)
 remDr$navigate(search_url)
 
 i <- 0
-while (i < 10) {
+while (i < 50) {
   scroll_to_bottom()
   scrape_page()
   if (expand_results()) {

@@ -311,20 +311,22 @@ for (i in 1:length(directory$College)) {
   curr_name <- directory[i,]$College
   message(i)
   message(curr_name)
-  curr_file <- directory[i,]$CDS_loc
-  priority_table <- generate_priority_table(curr_file)
-  if (is.data.frame(priority_table)) {
-    if (dim(priority_table)[1] > 0) {
-      priority_table <- cbind(College=curr_name,priority_table)
-      file_path <- paste("data_tables/priorities/",gsub(" ","_",str_to_lower(curr_name)),sep="")
-      write.csv(priority_table,file_path,row.names=FALSE)
+  file_path <- paste("data_tables/priorities/",gsub(" ","_",str_to_lower(curr_name)),sep="")
+  if (!file.exists(file_path)) {
+    curr_file <- directory[i,]$CDS_loc
+    priority_table <- generate_priority_table(curr_file)
+    if (is.data.frame(priority_table)) {
+      if (dim(priority_table)[1] > 0) {
+        priority_table <- cbind(College=curr_name,priority_table)
+        write.csv(priority_table,file_path,row.names=FALSE)
+      } else {
+        errors <- c(errors,curr_name)
+        message("ERROR")  
+      }
     } else {
       errors <- c(errors,curr_name)
-      message("ERROR")  
-    }
-  } else {
-    errors <- c(errors,curr_name)
-    message("ERROR")
+      message("ERROR")
+    } 
   }
 }
 
@@ -360,6 +362,18 @@ for (i in 1:length(priority_matrix[['College']])) {
   }
 }
 
+num_labels <- c("College","Very_Important","Important","Considered","Not_Considered","Total_Considered")
+num_cons_matrix <- as.data.frame(matrix(nrow=length(all_colleges),ncol=length(num_labels)))
+colnames(num_cons_matrix) <- num_labels
+num_cons_matrix[['College']] <- all_colleges
+for (i in 1:length(num_cons_matrix[['College']])) {
+  curr_college <- num_cons_matrix[['College']][i]
+  num_cons_matrix[['Very_Important']][i] <- dim(df %>% filter(College == curr_college) %>% filter(Weight == 3))[1]
+  num_cons_matrix[['Important']][i] <- dim(df %>% filter(College == curr_college) %>% filter(Weight == 2))[1]
+  num_cons_matrix[['Considered']][i] <- dim(df %>% filter(College == curr_college) %>% filter(Weight == 1))[1]
+  num_cons_matrix[['Not_Considered']][i] <- dim(df %>% filter(College == curr_college) %>% filter(Weight == 0))[1]
+  num_cons_matrix[['Total_Considered']][i] <- dim(df %>% filter(College == curr_college) %>% filter(Weight != 0))[1]
+}
 
 
 
