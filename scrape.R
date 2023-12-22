@@ -140,7 +140,7 @@ remDr <- rD[["client"]]
 remDr$setTimeout(type = "implicit", 3000)
 
 inst_dict <- read_csv("ipeds/trimmed_data.csv")
-for (i in 98:length(inst_dict$INSTNM)) {
+for (i in 451:length(inst_dict$INSTNM)) {
   curr_college <- inst_dict[i,]$INSTNM
   curr_url <- inst_dict[i,]$WEBADDR
   
