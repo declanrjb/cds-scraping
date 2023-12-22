@@ -17,6 +17,9 @@ rD <- rsDriver(
   check = TRUE,
 )
 
+remDr <- rD[["client"]]
+remDr$setTimeout(type = "implicit", 3000)
+
 url_from_result <- function(result_obj) {
   anchor <- result_obj$findChildElements("css","a")
   if (length(anchor) >= 1) {
@@ -149,19 +152,33 @@ randInt <- function(min,max) {
   return(result)
 }
 
-remDr <- rD[["client"]]
-remDr$setTimeout(type = "implicit", 3000)
-
 inst_dict <- read_csv("ipeds/trimmed_data.csv")
-stop_trigger <- randInt(20,40)
+stop_trigger <- randInt(30,40)
 for (i in 988:length(inst_dict$INSTNM)) {
   curr_college <- inst_dict[i,]$INSTNM
   curr_url <- inst_dict[i,]$WEBADDR
   
   if ((i %% stop_trigger) == 0) {
     message("TRIGGERED A STOP")
+    rD[["server"]]$stop()
+    
     Sys.sleep(randFloat(5,10))
-    stop_trigger <- randInt(20,40)
+    stop_trigger <- randInt(30,40)
+    
+    rD <- rsDriver(
+      port = 4470L,
+      browser = "firefox",
+      version = "latest",
+      chromever = "106.0.5249.21",
+      geckover = "latest",
+      iedrver = NULL,
+      phantomver = "2.1.1",
+      verbose = TRUE,
+      check = TRUE,
+    )
+    
+    remDr <- rD[["client"]]
+    remDr$setTimeout(type = "implicit", 3000)
   }
   
   message(curr_college)
