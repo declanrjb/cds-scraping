@@ -271,6 +271,10 @@ double_filter_lookup <- function(df,x_col,y_col,x,y,output_col) {
   return(results)
 }
 
+if (file.exists("cds_cleaned/university_of_alabama_in_huntsville.pdf")) {
+  file.remove("cds_cleaned/university_of_alabama_in_huntsville.pdf")  
+}
+
 all_pdfs <- list.files(path="cds_cleaned")
 all_pdfs <- paste("cds_cleaned/",all_pdfs,sep="")
 

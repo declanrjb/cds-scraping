@@ -136,15 +136,33 @@ go_forth_and_scrape <- function(j) {
   }
 }
 
+randFloat <- function(min,max) {
+  difference <- max - min
+  result <- min + (runif(1) * difference)
+  return(result)
+}
+
+randInt <- function(min,max) {
+  difference <- max - min
+  result <- min + (runif(1) * difference)
+  result <- as.integer(result)
+  return(result)
+}
+
 remDr <- rD[["client"]]
 remDr$setTimeout(type = "implicit", 3000)
 
 inst_dict <- read_csv("ipeds/trimmed_data.csv")
-for (i in 451:length(inst_dict$INSTNM)) {
+stop_trigger <- randInt(20,40)
+for (i in 988:length(inst_dict$INSTNM)) {
   curr_college <- inst_dict[i,]$INSTNM
   curr_url <- inst_dict[i,]$WEBADDR
   
-  Sys.sleep(runif(1) * 3)
+  if ((i %% stop_trigger) == 0) {
+    message("TRIGGERED A STOP")
+    Sys.sleep(randFloat(5,10))
+    stop_trigger <- randInt(20,40)
+  }
   
   message(curr_college)
   message(i)
