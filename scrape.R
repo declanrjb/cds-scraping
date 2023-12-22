@@ -139,12 +139,16 @@ go_forth_and_scrape <- function(j) {
 remDr <- rD[["client"]]
 remDr$setTimeout(type = "implicit", 3000)
 
-inst_dict <- read_csv("hd2022.csv")
-for (i in 115:length(inst_dict$INSTNM)) {
+inst_dict <- read_csv("ipeds/trimmed_data.csv")
+for (i in 98:length(inst_dict$INSTNM)) {
   curr_college <- inst_dict[i,]$INSTNM
   curr_url <- inst_dict[i,]$WEBADDR
+  
+  Sys.sleep(runif(1) * 3)
+  
   message(curr_college)
   message(i)
+  message(i/length(inst_dict$INSTNM))
   outcome <- download_cds_guess(curr_college,curr_url)
   message(outcome)
 }
