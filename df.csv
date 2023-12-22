@@ -18,6 +18,23 @@
 "Agnes Scott College","Volunteer work",74
 "Agnes Scott College","Work experience",92
 "Agnes Scott College","Level of applicant’s interest",92
+"Alabama State University","Class rank",63
+"Alabama State University","Academic GPA",44
+"Alabama State University","Standardized test scores",44
+"Alabama State University","Application Essay",63
+"Alabama State University","Recommendation(s)",63
+"Alabama State University","Interview",101
+"Alabama State University","Extracurricular activities",101
+"Alabama State University","Talent/ability",101
+"Alabama State University","Character/personal qualities",101
+"Alabama State University","First generation",101
+"Alabama State University","Alumni/ae relation",101
+"Alabama State University","Geographical residence",101
+"Alabama State University","State residency",101
+"Alabama State University","Religious affiliation/commitment",101
+"Alabama State University","Racial/ethnic status",101
+"Alabama State University","Volunteer work",101
+"Alabama State University","Work experience",101
 "American University","Rigor of secondary school record",47
 "American University","Class rank",104
 "American University","Academic GPA",45
@@ -381,6 +398,25 @@
 "Bucknell University","Volunteer work",66
 "Bucknell University","Work experience",66
 "Bucknell University","Level of applicant’s interest",85
+"California State Polytechnic University, Pomona","Rigor of secondary school record",44
+"California State Polytechnic University, Pomona","Class rank",99
+"California State Polytechnic University, Pomona","Academic GPA",42
+"California State Polytechnic University, Pomona","Standardized test scores",99
+"California State Polytechnic University, Pomona","Application Essay",99
+"California State Polytechnic University, Pomona","Recommendation(s)",99
+"California State Polytechnic University, Pomona","Interview",99
+"California State Polytechnic University, Pomona","Extracurricular activities",81
+"California State Polytechnic University, Pomona","Talent/ability",99
+"California State Polytechnic University, Pomona","Character/personal qualities",99
+"California State Polytechnic University, Pomona","First generation",81
+"California State Polytechnic University, Pomona","Alumni/ae relation",99
+"California State Polytechnic University, Pomona","Geographical residence",81
+"California State Polytechnic University, Pomona","State residency",99
+"California State Polytechnic University, Pomona","Religious affiliation/commitment",99
+"California State Polytechnic University, Pomona","Racial/ethnic status",99
+"California State Polytechnic University, Pomona","Volunteer work",81
+"California State Polytechnic University, Pomona","Work experience",81
+"California State Polytechnic University, Pomona","Level of applicant’s interest",99
 "California State University, Sacramento","Class rank x",102
 "California State University, Sacramento","Academic GPA x",45
 "California State University, Sacramento","Standardized test scores x",102
@@ -418,6 +454,25 @@
 "California State University, San Bernardino","Volunteer work x",103
 "California State University, San Bernardino","Work experience x",103
 "California State University, San Bernardino","Level of applicant’s interest x",103
+"California State University, Stanislaus","Rigor of secondary school record",65
+"California State University, Stanislaus","Class rank",95
+"California State University, Stanislaus","Academic GPA",63
+"California State University, Stanislaus","Standardized test scores",141
+"California State University, Stanislaus","Application Essay",141
+"California State University, Stanislaus","Recommendation(s)",141
+"California State University, Stanislaus","Interview",141
+"California State University, Stanislaus","Extracurricular activities",122
+"California State University, Stanislaus","Talent/ability",141
+"California State University, Stanislaus","Character/personal qualities",141
+"California State University, Stanislaus","First generation",122
+"California State University, Stanislaus","Alumni/ae relation",141
+"California State University, Stanislaus","Geographical residence",141
+"California State University, Stanislaus","State residency",141
+"California State University, Stanislaus","Religious affiliation/commitment",141
+"California State University, Stanislaus","Racial/ethnic status",141
+"California State University, Stanislaus","Volunteer work",122
+"California State University, Stanislaus","Work experience",122
+"California State University, Stanislaus","Level of applicant’s interest",141
 "Central Michigan University","Rigor of secondary school record",44
 "Central Michigan University","Class rank",80
 "Central Michigan University","Academic GPA",42
@@ -1222,6 +1277,25 @@
 "Mount Marty University","Volunteer work",86
 "Mount Marty University","Work experience",86
 "Mount Marty University","Level of applicant’s interest",86
+"Northern Arizona University","Rigor of secondary school record",63
+"Northern Arizona University","Class rank",81
+"Northern Arizona University","Academic GPA",42
+"Northern Arizona University","Standardized test scores",81
+"Northern Arizona University","Application Essay",99
+"Northern Arizona University","Recommendation(s)",99
+"Northern Arizona University","Interview",99
+"Northern Arizona University","Extracurricular activities",99
+"Northern Arizona University","Talent/ability",99
+"Northern Arizona University","Character/personal qualities",99
+"Northern Arizona University","First generation",99
+"Northern Arizona University","Alumni/ae relation",99
+"Northern Arizona University","Geographical residence",99
+"Northern Arizona University","State residency",99
+"Northern Arizona University","Religious affiliation/commitment",99
+"Northern Arizona University","Racial/ethnic status",99
+"Northern Arizona University","Volunteer work",99
+"Northern Arizona University","Work experience",99
+"Northern Arizona University","Level of applicant’s interest",99
 "Northwestern University","Class rank",43
 "Northwestern University","Academic GPA",43
 "Northwestern University","Standardized test scores",79
@@ -1664,6 +1738,25 @@
 "The University of Alabama at Birmingham","Volunteer work",98
 "The University of Alabama at Birmingham","Work experience",98
 "The University of Alabama at Birmingham","Level of applicant’s interest",98
+"The University of Alabama in Huntsville","Rigor of secondary school record x",97
+"The University of Alabama in Huntsville","Class rank x",97
+"The University of Alabama in Huntsville","Academic GPA x",78
+"The University of Alabama in Huntsville","Standardized test scores x",80
+"The University of Alabama in Huntsville","Application Essay x",97
+"The University of Alabama in Huntsville","Recommendation(s) x",97
+"The University of Alabama in Huntsville","Interview x",97
+"The University of Alabama in Huntsville","Extracurricular activities x",97
+"The University of Alabama in Huntsville","Talent/ability x",97
+"The University of Alabama in Huntsville","Character/personal qualities x",97
+"The University of Alabama in Huntsville","First generation x",97
+"The University of Alabama in Huntsville","Alumni/ae relation x",97
+"The University of Alabama in Huntsville","Geographical residence x",97
+"The University of Alabama in Huntsville","State residency x",97
+"The University of Alabama in Huntsville","Religious affiliation/commitment x",97
+"The University of Alabama in Huntsville","Racial/ethnic status x",97
+"The University of Alabama in Huntsville","Volunteer work x",97
+"The University of Alabama in Huntsville","Work experience x",97
+"The University of Alabama in Huntsville","Level of applicant’s interest x",97
 "The University of North Carolina at Greensboro","school record x",37
 "The University of North Carolina at Greensboro","Class rank x",72
 "The University of North Carolina at Greensboro","Academic GPA x",35
@@ -1794,6 +1887,24 @@
 "Tufts University","Volunteer work x",92
 "Tufts University","Work experience x",92
 "Tufts University","Level of applicant’s interest x",92
+"University of California - Davis","Class rank",99
+"University of California - Davis","Academic GPA",43
+"University of California - Davis","Standardized test scores",80
+"University of California - Davis","Application Essay",43
+"University of California - Davis","Recommendation(s)",99
+"University of California - Davis","Interview",99
+"University of California - Davis","Extracurricular activities",62
+"University of California - Davis","Talent/ability",62
+"University of California - Davis","Character/personal qualities",62
+"University of California - Davis","First generation",80
+"University of California - Davis","Alumni/ae relation",99
+"University of California - Davis","Geographical residence",99
+"University of California - Davis","State residency",80
+"University of California - Davis","Religious affiliation/commitment",99
+"University of California - Davis","Racial/ethnic status",99
+"University of California - Davis","Volunteer work",62
+"University of California - Davis","Work experience",80
+"University of California - Davis","Level of applicant’s interest",99
 "University of California, Riverside","Class rank x",94
 "University of California, Riverside","Academic GPA x",42
 "University of California, Riverside","Standardized test scores x",94

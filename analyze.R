@@ -271,8 +271,8 @@ double_filter_lookup <- function(df,x_col,y_col,x,y,output_col) {
   return(results)
 }
 
-all_pdfs <- list.files(path="cds_all")
-all_pdfs <- paste("cds_all/",all_pdfs,sep="")
+all_pdfs <- list.files(path="cds_cleaned")
+all_pdfs <- paste("cds_cleaned/",all_pdfs,sep="")
 
 directory <- as.data.frame(matrix(ncol=3,nrow=length(all_pdfs)))
 colnames(directory) <- c("College","CDS_loc","Name_Table_Loc")
