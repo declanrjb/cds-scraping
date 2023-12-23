@@ -277,6 +277,7 @@ if (file.exists("cds_cleaned/university_of_alabama_in_huntsville.pdf")) {
 
 all_pdfs <- list.files(path="cds_cleaned")
 all_pdfs <- paste("cds_cleaned/",all_pdfs,sep="")
+all_pdfs <- all_pdfs[!grepl("catalog",str_to_lower(all_pdfs),fixed=TRUE)]
 
 directory <- as.data.frame(matrix(ncol=3,nrow=length(all_pdfs)))
 colnames(directory) <- c("College","CDS_loc","Name_Table_Loc")

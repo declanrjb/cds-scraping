@@ -6,7 +6,7 @@ library(RCurl)
 #initiate server
 
 rD <- rsDriver(
-  port = 4470L,
+  port = 4460L,
   browser = "firefox",
   version = "latest",
   chromever = "106.0.5249.21",
@@ -154,7 +154,7 @@ randInt <- function(min,max) {
 
 inst_dict <- read_csv("ipeds/trimmed_data.csv")
 stop_trigger <- randInt(30,40)
-for (i in 988:length(inst_dict$INSTNM)) {
+for (i in 1963:length(inst_dict$INSTNM)) {
   curr_college <- inst_dict[i,]$INSTNM
   curr_url <- inst_dict[i,]$WEBADDR
   
@@ -166,7 +166,7 @@ for (i in 988:length(inst_dict$INSTNM)) {
     stop_trigger <- randInt(30,40)
     
     rD <- rsDriver(
-      port = 4470L,
+      port = 4460L,
       browser = "firefox",
       version = "latest",
       chromever = "106.0.5249.21",
