@@ -4,6 +4,7 @@ library(rvest)
 library(RCurl)
 library(pdftools)
 library(stringr)
+library(stringi)
 
 vec_paste <- function(vec) {
   result <- ""
@@ -418,4 +419,12 @@ shared_vec <- function(vec1,vec2) {
   }
   
   return(result)
+}
+
+standard_clean <- function(vec) {
+  vec <- gsub('[[:punct:] ]+',' ',vec)
+  vec <- str_to_lower(vec)
+  vec <- str_squish(vec)
+  vec <- stri_trans_general(vec,"Latin-ASCII")
+  return(vec)
 }
