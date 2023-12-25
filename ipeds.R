@@ -1,5 +1,7 @@
 library(tidyverse)
 
+source("functions.R")
+
 ipeds <- read_csv("ipeds/hd2022.csv")
 ipeds <- ipeds %>% select(UNITID,INSTNM,WEBADDR)
 
