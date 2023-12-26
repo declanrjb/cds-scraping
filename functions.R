@@ -428,3 +428,58 @@ standard_clean <- function(vec) {
   vec <- stri_trans_general(vec,"Latin-ASCII")
   return(vec)
 }
+
+mean_by_filter <- function(df,filter_column,val_column,filter_value) {
+  indices <- which(df[[{{filter_column}}]] == filter_value)
+  df <- df[indices,]
+  return(mean(df[[{{val_column}}]],na.rm=TRUE))
+}
+
+build_means_table <- function(df,filter_column,val_column) {
+  sorts <- unique(df[[{{filter_column}}]])
+  result <- as.data.frame(matrix(ncol=4,nrow=length(sorts)))
+  colnames(result) <- c("Filter_Col","Val_Col","Filter_Val","MEAN")
+  result$Filter_Col <- filter_column
+  result$Val_Col <- val_column
+  for (i in 1:length(sorts)) {
+    curr_sort <- sorts[i]
+    result[i,]$MEAN <- mean_by_filter(df,filter_column,val_column,curr_sort)
+    result[i,]$Filter_Val <- curr_sort
+  }
+  result <- result %>% arrange(Filter_Val)
+  return(result)
+}
+
+parse_percent <- function(dec) {
+  dec <- dec * 100
+  dec <- round(dec,1)
+  dec <- paste(dec,"%",sep="")
+  return(dec)
+}
+
+title_wrapper <- function(x,wrap) {
+  x <- paste(strwrap(x,wrap),collapse="\n")
+  return(x)
+}
+
+assemble_combined_plot <- function(df,filter_col,val) {
+  means_table <- build_means_table(df,filter_col,val)
+  means_table <- means_table %>% filter(!is.na(Filter_Val))
+  graph_df <- df %>% select({{filter_col}},{{val}})
+  colnames(graph_df) <- c("Filter_Col","Val")
+  graph_df <- graph_df %>% filter(!is.na(Filter_Col)) %>% filter(!is.na(Val))
+  p <- ggplot() +
+    geom_point(data=graph_df, aes(x=Filter_Col,y=Val)) +
+    geom_line(data=means_table, aes(x=Filter_Val,y=MEAN), color="blue") +
+    geom_point(data=means_table, aes(x=Filter_Val,y=MEAN), color="blue") +
+    ggrepel::geom_label_repel(data = means_table,
+                              mapping = aes(x = Filter_Val, y = MEAN, label = parse_percent(MEAN))) +
+    geom_line(data=means_table, aes(x=Filter_Val,y=0), color="black", linetype="dashed") +
+    theme_bw() +
+    ylab(gsub("admDiff","Difference in Admission Rates",val)) +
+    xlab(paste("Importance of: ",filter_col,sep="")) +
+    scale_y_continuous(labels = scales::percent) +
+    ggtitle(title_wrapper(paste("Gendered Difference in Admissions Rates by Importance of ",str_to_title(filter_col),sep=""),85)) +
+    xlim(0,3)
+  return(p)
+}
